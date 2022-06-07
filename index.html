@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .image-container {
+        display: block;
+      }
+      .main-image {
+        display: block;
+        border-radius: 20px;
+        max-width: 100%;
+        margin: 50px auto;
+      }
+      .gallery {
+        display: flex;
+      }
+      .fig {
+        text-align: center;
+        line-height: 30px;
+        margin: 16px;
+        box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+      }
+      .card1 {
+        filter: opacity(50%);
+      }
+      .card2 {
+        filter: blur(4px);
+      }
+      .card3 {
+        filter: invert(100%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <img
+        class="main-image"
+        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg"
+        alt="Landand tree"
+      />
+    </div>
+    <div class="gallery">
+      <figure class="fig">
+        <img
+          class="card1"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+        />
+        <figcaption>Nature one</figcaption>
+      </figure>
+      <figure class="fig">
+        <img
+          class="card2"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+        />
+        <figcaption>Nature two</figcaption>
+      </figure>
+      <figure class="fig">
+        <img
+          class="card3"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+        />
+        <figcaption>Nature three</figcaption>
+      </figure>
+    </div>
+  </body>
+</html>
