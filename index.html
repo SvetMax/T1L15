@@ -28,8 +28,8 @@
         display: flex;
       }
       .fig {
-        text-align: center;
-        line-height: 30px;
+        /* text-align: center;
+        line-height: 30px;*/
         margin: 16px;
         box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
       }
@@ -41,6 +41,11 @@
       }
       .card3 {
         filter: invert(100%);
+      }
+      figcaption {
+        text-align: center;
+        line-height: 30px;
+        margin: 0;
       }
     </style>
   </head>
@@ -56,23 +61,26 @@
       <figure class="fig">
         <img
           class="card1"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="mountin"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+          alt="mountin"
         />
-        <figcaption>Nature one</figcaption>
+        <figcaption>Opacity</figcaption>
       </figure>
       <figure class="fig">
         <img
           class="card2"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="mountin with forest"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+          alt="mountin with forest"
         />
-        <figcaption>Nature two</figcaption>
+        <figcaption>Blur</figcaption>
       </figure>
       <figure class="fig">
         <img
           class="card3"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="forest"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+          alt="forest"
         />
-        <figcaption>Nature three</figcaption>
+        <figcaption>Invert</figcaption>
       </figure>
     </div>
   </body>
